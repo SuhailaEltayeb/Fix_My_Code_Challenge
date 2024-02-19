@@ -1,8 +1,6 @@
-0-fizzbuzz.py
 #!/usr/bin/python3
 """ FizzBuzz
-    Modify the code so that it prints "FizzBuzz" for numbers
-    that are multiples of both three and five
+    Fix the code so it prints multibles of 3 and 5 correctly
 """
 import sys
 
@@ -10,9 +8,9 @@ import sys
 def fizzbuzz(n):
     """
     FizzBuzz function prints numbers from 1 to n separated by a space.
-    
+
     - For multiples of three print "Fizz" instead of the number and for
-      multiples of five print "Buzz".
+    multiples of five print "Buzz".
     - For numbers which are multiples of both three and five print "FizzBuzz".
     """
     if n < 1:
